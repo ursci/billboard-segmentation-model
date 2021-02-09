@@ -138,5 +138,7 @@ dmypy.json
 cython_debug/
 
 # exclude data
-.jpg
-tools/*.json
+*.jpg
+*.png
+
+notebooks/tools/**/*.json
