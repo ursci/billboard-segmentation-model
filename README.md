@@ -13,9 +13,22 @@
 pip install requirements.txt
 ```
 
+```sh
+git submodule update --init --recursive
+```
+
 # Start notebook
 
 ```sh
 jupyter lab # or jupyter notebook
 ```
+
+# 第二次曲線セグメンテーション予測方法
+下記でPILイメージが取得できます
+
+```python
+from inference import get_masked_pil_img
+output = get_masked_pil_img("path/to/file.jpg")
+```
+
 

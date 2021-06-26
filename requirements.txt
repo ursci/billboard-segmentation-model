@@ -108,9 +108,7 @@ testpath==0.4.4
 threadpoolctl==2.1.0
 tifffile==2021.2.1
 timm==0.3.2
-torch==1.7.1+cu101
-torchaudio==0.7.2
-torchvision==0.8.2+cu101
+torchvision
 tornado==6.1
 tqdm==4.56.2
 traitlets==5.0.5
