@@ -104,7 +104,7 @@ def get_preprocessing(preprocessing_fn):
     return albu.Compose(_transform)
 
 def get_masked_pil_img(img_file: str) -> Image:
-    """Example function with PEP 484 type annotations.
+    """Retribe masked PIL image from file path.
 
     Args:
         img_file(str): A file path of image.
