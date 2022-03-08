@@ -32,7 +32,7 @@ class Dataset(BaseDataset):
         augmentation (albumentations.Compose): data transfromation pipeline
             (e.g. flip, scale, etc.)
         preprocessing (albumentations.Compose): data preprocessing
-            (e.g. noralization, shape manipulation, etc.)
+            (e.g. normalization, shape manipulation, etc.)
 
     """
 
