@@ -8,6 +8,8 @@ import segmentation_models_pytorch as smp
 import torch
 from natsort import natsorted
 from PIL import Image
+from torch.utils.data import DataLoader
+from torch.utils.data import Dataset as BaseDataset
 from torchvision import transforms
 
 BEST_MODEL = "./best_model_Unet_resnet50_epoch40.pth"
@@ -18,9 +20,6 @@ ENCODER = "resnet50"
 ENCODER_WEIGHTS = "imagenet"
 
 preprocessing_fn = smp.encoders.get_preprocessing_fn(ENCODER, ENCODER_WEIGHTS)
-
-from torch.utils.data import DataLoader
-from torch.utils.data import Dataset as BaseDataset
 
 
 class Dataset(BaseDataset):
