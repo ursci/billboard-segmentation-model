@@ -10,12 +10,16 @@
 # How it works
 
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ```sh
 git submodule update --init --recursive
 ```
+
+# Preparation
+
+You should set `best_model_Unet_resnet50_epoch40.pth` into notebooks directory, if you want to use a pre-trained model. Also you can get the weight from [here](https://huggingface.co/pomcho555/billboard-segmentation-model/blob/main/best_model_Unet_resnet50.pth).
 
 # Start notebook
 
